@@ -1,0 +1,20 @@
+body{
+    margin: 0px
+}
+
+.person-image {
+    width: 172px;
+    height: 172px;
+    margin-left: 68px;
+    margin-top: -126px;
+    border-radius: 89px;
+}
+
+.header-image{
+    background-image: url('../assets/hader-bg.png');
+    height: 250px;
+}
+
+.ma-left {
+    margin-left: 10px;
+}
