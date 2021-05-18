@@ -44,3 +44,7 @@ li dl {
 dd {
     color: #000000;
 }
+
+header{
+    background-image: url('../assets/header-bg.png');
+}
