@@ -20,3 +20,27 @@ section > ul {
 header {
     text-align: center;
 }
+
+li a:link{
+    text-decoration: none;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+div > p::first-letter{
+    font-size: 1.5em;
+}
+
+dl {
+    font-family: cursive, sans-serif;
+    font-size: smaller;
+    font-weight: normal;
+    font-style: italic;
+    color: #800000;
+}
+
+dd {
+    color: #000000;
+}
