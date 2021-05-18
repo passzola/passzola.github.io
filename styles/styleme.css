@@ -33,7 +33,7 @@ div > p::first-letter{
     font-size: 1.5em;
 }
 
-dl {
+li dl {
     font-family: cursive, sans-serif;
     font-size: smaller;
     font-weight: normal;
