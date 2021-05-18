@@ -1,0 +1,22 @@
+/* changing color of elements */
+header > h1, h2, .h3-color {
+    color: #800000
+}
+
+section > ol {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+}
+
+section > ul {
+    font-family: cursive, sans-serif;
+    font-size: smaller;
+    font-weight: bold;
+    font-style: italic;
+}
+
+header {
+    text-align: center;
+}
