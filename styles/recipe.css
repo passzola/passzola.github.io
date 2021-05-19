@@ -33,8 +33,7 @@ a{
 }
 
 pre {
-    font-family: monospace;
-    white-space: pre;
+    margin-left: -96px;
 }
 
 blockquote{
