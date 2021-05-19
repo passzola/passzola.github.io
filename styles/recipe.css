@@ -5,11 +5,16 @@ header > h1 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    background-color: #F0F0F0;
     color: #A4A400;
     text-decoration: underline;
     font-family: 'Lucida Sans Unicode', 'Helvetica', Arial, sans-serif;
 }
+
+h1 > span, h2 > span, h3 > span, h4 > span, h5 > span, h6 > span {
+    background-color: #F0F0F0;
+    letter-spacing: .25em;
+}
+
 
 h2, h3, h4, h5, h6 {
     font-size: 18pt;
@@ -20,6 +25,7 @@ body{
     color: #404040;
     font-size: 11pt;
     font-family: 'Gorgia', 'Graramond', sans-serif;
+    background-image: url('https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg');
 }
 
 a{
@@ -28,6 +34,7 @@ a{
 
 pre {
     font-family: monospace;
+    white-space: pre;
 }
 
 blockquote{
@@ -43,3 +50,6 @@ blockquote{
     margin-bottom: 15px;
 }
 
+ul{
+    list-style-image: url('https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif');
+}
