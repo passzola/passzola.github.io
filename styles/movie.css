@@ -1,0 +1,25 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-size: 100%;
+    background-image: url('../assets/tmnt/background.png');
+}
+
+.container{
+    margin: auto;
+    width: 800px;
+    border: 4px solid gray;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 3px 3px #999999;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.banner{
+    background-image: url('../assets/tmnt/bannerbg.png');
+    background-repeat: repeat;
+}
