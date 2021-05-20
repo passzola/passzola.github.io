@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Student Grade</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1>Get Your Grade</h1>
+    <form action="http://mumstudents.org/params.php" method="GET" autocomplete="off">
+        <label for="name">Name</label><br>
+        <input type="text" name="name" required/><br><br>
+        <label for="id">Student Id</label><br>
+        <input type="text" name="id" pattern="[0-9]+" required/><br><br>
+        <label for="assigment">Assigment</label><br>
+        <select name="assigment" id="assigment" required>
+            <option value="lab1">Lab01- Home Page</option>
+            <option value="lab2">Lab02 - About Me</option>
+            <option value="lab3">Lab03 - Recipe</option>
+            <option value="lab4">Lab04 - Movie Review</option>
+            <option value="lab5" selected>Lab05 - Grade</option>
+        </select><br><br>
+        <label>Entry</label><br>
+        <label>Feb 2021</label><input type="radio" name="entry" value="Feb2021" />
+        <label>May 2021</label><input type="radio" name="entry" value="May 2021" />
+        <label>Sep 2021</label><input type="radio" name="entry" value="Sep2021" /><br><br>
+        <input type="checkbox" name="confirm" id="confirm" required/>
+        <label>Conrim that you are not lying and relly are only looking up your own grade</label><br><br>
+
+        <input type="submit" value="Get Grade" />
+        <input type="reset" value="Clear Form" />
+
+    </form>
+</body>
+
+</html>
