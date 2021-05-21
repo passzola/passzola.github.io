@@ -1,0 +1,60 @@
+.logo-text{
+    margin-top: 0px;
+}
+
+fieldset{
+    border-radius: 10px;
+    box-shadow: 2px 1px;
+    float: left;
+    background-color: #e0e0ff;
+}
+.form-label label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-label{
+    float: left;
+    font-weight: bold;
+}
+
+.form-control > div, .form-control > input{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-control{
+    margin: auto;
+    float: left;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.container, footer{
+    float: left;
+}
+
+footer p{
+    width: 444px;
+}
+
+.btn-signup{
+    background-color: pink;
+    font-weight: bold;
+}
+
+legend{
+    border-radius: 2px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+legend, .btn-signup{
+    font-size: large;
+}
+
+.red-nonunderline-link{
+    color: red;
+    text-decoration: none;
+}
