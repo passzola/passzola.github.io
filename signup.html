@@ -16,18 +16,18 @@
             <p class="logo-text">where meek geeks meet</p>
         </header>
 
-        <section>
+        <div>
             <form autocomplete="off" action="#">
                 <fieldset>
                     <legend>New User Signup:</legend>
 
                     <div class="form-label">
                         <label for="name">Name:</label>
-                        <label for="gender">Gender:</label>
+                        <label >Gender:</label>
                         <label for="age">Age:</label>
                         <label for="ptype">Personlality type:</label>
                         <label for="os">Favorite OS: </label>
-                        <label for="seekingAge">Seeking age:</label>
+                        <label >Seeking age:</label>
                         <input type="submit" value="Sign Up" class="btn-signup" />
 
                     </div>
@@ -37,26 +37,26 @@
                         <input type="text" name="name" id="name" maxlength="16"/>
 
                         <div>
-                            <input type="radio" value="male" name="gender" /><label>Male</label>
-                            <input type="radio" value="female" checked name="gender" /> <label>Female</label>
+                            <input type="radio" value="male" name="gender"/><label>Male</label>
+                            <input type="radio" value="female" checked name="gender"/> <label>Female</label>
                         </div>
 
 
-                        <input type="text" name="age" size="6" pattern="[0-9]{0,2}"/>
+                        <input type="text" name="age" size="6" pattern="[0-9]{0,2}" id="age"/>
                         <div>
-                            <input type="text" name="ptype" size="6" pattern="[A-Z]{0,4}"/> <span>(<a
+                            <input type="text" name="ptype" size="6" pattern="[A-Z]{0,4}" id="ptype"/> <span>(<a
                                     href="http://www.humanmetrics.com/cgi-win/JTypes2asp"
                                     class="red-nonunderline-link">Don't know your
                                     type?</a>)</span>
                         </div>
 
-                        <select name="os">
+                        <select name="os" id="os">
                             <option value="win" selected>Windows</option>
                             <option value="mac">Mac OS X</option>
                             <option value="linux">LInux</option>
                         </select>
                         <div>
-                            <input type="text" name="min" placeholder="min" pattern="[0-9]{0,2}" size="6" />
+                            <input type="text" name="min" placeholder="min" pattern="[0-9]{0,2}" size="6"/>
                             to <input type="text" name="max" placeholder="max" pattern="[0-9]{0,2}" title="Enter maximum two dgists" size="6"/>
                         </div>
 
@@ -66,7 +66,7 @@
 
                 </fieldset>
             </form>
-        </section>
+        </div>
 
         <footer>
             <p>This page is for signel ners to meet and date each other! Type in your personal information
