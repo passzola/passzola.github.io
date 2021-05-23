@@ -1,0 +1,13 @@
+1. In the first setTimeout execution, the function after 2 seconds, but in case of the second setTimeout exection the method body exectued without waiting 2 seconds
+2. It shows an alert box with value of 6 two times.
+3.
+   
+    function booyah1() {
+        alert("BOOYAH!");
+    }
+
+    function booyah2() {
+        alert("BOOYAH!");
+    }
+4.HTML code with minimla javascript code inside.
+    It allows separation of websites int0 3 major categories(content, presentation, behavior)
