@@ -1,0 +1,29 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #CCCCFF;
+
+}
+fieldset{
+    display: inline-block;
+    border: 5px solid black;
+    vertical-align: top;
+}
+/* .controls, .app-title{
+    text-align: center;
+} */
+
+.app-title{
+    font-size: 32pt;
+    
+}
+
+/* body{
+    text-align: center;
+} */
+.validator{
+    text-align: right;
+}
