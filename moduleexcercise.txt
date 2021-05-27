@@ -1,0 +1,203 @@
+1. undefined889101
+2. Global scope refers to scope before we write any line of javascript code
+   Local scope refer to any scope defined past the global scope
+3. a. No
+   b. Yes
+   c. No
+   d. Yes
+   e. Yes
+4. 8125
+5. 10
+6. var count = {
+      counter: 0,
+      add: function () {
+         this.counter += 1;
+         return this.counter;
+      },
+      reset: function () {
+         this.counter = 0;
+         return this.counter;
+      }
+   }
+7. counter
+   Free variables are simply the variables that are neither locally declared nor passed as parameter.
+8. function make_adder(inc) {
+      var counter = 0;
+      var incSize = inc;
+      return function () {
+         return counter += incSize;
+      }
+   }
+9.
+10.   var employee = (function () {
+      var name;
+      var age;
+      var salary;
+
+      // private
+      var getAge = function () {
+         return age;
+      }
+      var getSalary = function () {
+         return salary;
+      }
+      var getName = function () {
+         return name;
+      }
+      // public
+      var setAge = function (newAge) {
+         age = newAge;
+      }
+      var setSalary = function (newSalary) {
+         salary = newSalary;
+      }
+      var setName = function (newName) {
+         name = newName;
+      }
+      var increaseSalary = function (percentage) {
+         salary = getSalary() + (getSalary() * percentage);
+      }
+      var incrementAge = function () {
+         age = getAge() + 1;
+      }
+
+      return {
+         setAge: setAge,
+         setSalary: setSalary,
+         setName: setName,
+         increaseSalary: increaseSalary,
+         incrementAge: incrementAge
+      }
+   })();
+11. var employee = (function () {
+      var name;
+      var age;
+      var salary;
+
+      // private
+      var getAge = function () {
+         return age;
+      }
+      var getSalary = function () {
+         return salary;
+      }
+      var getName = function () {
+         return name;
+      }
+      // public
+
+
+      return {
+         setAge: function (newAge) {
+               age = newAge;
+         },
+         setSalary: function (newSalary) {
+               salary = newSalary;
+         },
+         setName: function (newName) {
+               name = newName;
+         },
+         increaseSalary: function (percentage) {
+               salary = getSalary() + (getSalary() * percentage);
+         },
+         incrementAge: function () {
+               age = getAge() + 1;
+         }
+      }
+   })();
+12. var employee = (function () {
+         var name;
+         var age;
+         var salary;
+
+         var empObject = {};
+
+         // private
+         var getAge = function () {
+            return age;
+         }
+         var getSalary = function () {
+            return salary;
+         }
+         var getName = function () {
+            return name;
+         }
+
+         empObject.setAge = function (newAge) {
+            age = newAge;
+         }
+
+         empObject.setSalary = function (newSalary) {
+            salary = newSalary;
+         }
+
+         empObject.setName = function (newName) {
+            name = newName;
+         }
+
+         empObject.increaseSalary = function (percentage) {
+            salary = getSalary() + (getSalary() * percentage);
+         }
+
+         empObject.incrementAge = function () {
+            age = getAge() + 1;
+         }
+
+         return empObject;
+      })();
+13.   var employee = (function () {
+      var name;
+      var age;
+      var salary;
+      var address;
+
+      // private
+      var getAge = function () {
+         return age;
+      }
+      var getSalary = function () {
+         return salary;
+      }
+      var getName = function () {
+         return name;
+      }
+      // public
+      var setAge = function (newAge) {
+         age = newAge;
+      }
+      var setSalary = function (newSalary) {
+         salary = newSalary;
+      }
+      var setName = function (newName) {
+         name = newName;
+      }
+      var increaseSalary = function (percentage) {
+         salary = getSalary() + (getSalary() * percentage);
+      }
+      var incrementAge = function () {
+         age = getAge() + 1;
+      }
+
+      var getAddress = function () {
+         return address;
+      }
+
+      var setAddress = function (newAddress) {
+         address = newAddress;
+      }
+
+      return {
+         setAge: setAge,
+         setSalary: setSalary,
+         setName: setName,
+         increaseSalary: increaseSalary,
+         incrementAge: incrementAge,
+         setAddress: setAddress,
+         getAddress: getAddress
+      }
+   })();
+
+14. Error: Hattori
+15. Success: Hattori
+16. success
+    error

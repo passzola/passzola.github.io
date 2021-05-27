@@ -1,0 +1,64 @@
+1. There is a curly brace if we remove that one
+    we can get the output 10889101
+2. function is a block of code writen to perform some tasks while method is functions stored as object property.
+3. It refer to the current object
+4. It refer to the object in which the method is defined.
+5. It refers to the newly created object
+6. It represent Object x.
+7. varibale that is used insdie a funtion but not defined inside funciton body or not passed as a parameter to the function.
+8. var test = {
+    name: 'fred',
+    major: 'music',
+    do: function(num1, num2){
+        var result;
+
+        if(num1 === num2){
+
+        } else {
+            if(num1 > num2){
+                result = num1;
+            }else{
+                result = num2;
+            }
+        }
+
+        return result;
+    }
+}
+
+9. function Empoyee(name, salary, position){
+    this.name = name;
+    this.salary = salary;
+    this.position = position;
+}
+
+var emp1 = new Empoyee("Zelalem", 2345, "Lead developer");
+var emp2 = new Empoyee("Mekuria", 5678, "Team Leader");
+var emp3 = new Empoyee("Selamawit", 8900, "Project Manager");
+
+
+10. function product(...inputs){
+        if(input.length === 0){
+            return 'No valid input given';
+        }
+        var product = 1;
+
+        for(let i = 0; i < inputs.length; i++){
+            product *= i;
+        }
+
+        return product;
+}
+
+11. var max (num1, num2, num3) => {
+    var max = num1;
+    if(num2 > max){
+        max = num2;
+    }
+
+    if(num3 > max){
+        max = num3;
+    }
+
+    return max;
+}
