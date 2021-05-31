@@ -50,7 +50,7 @@ var emp3 = new Empoyee("Selamawit", 8900, "Project Manager");
         return product;
 }
 
-11. var max (num1, num2, num3) => {
+11. var max =  (num1, num2, num3) => {
     var max = num1;
     if(num2 > max){
         max = num2;

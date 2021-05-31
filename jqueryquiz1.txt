@@ -1,0 +1,23 @@
+1. jquery object is a wrapper object around single or multiple DOM elements.
+   jquery function is a set of statment that performs some specific tasks on a given jquery object.
+2. $("div h1").css("background-color", "red");
+3. <!DOCTYPE html>
+
+    <html> 
+    <head>
+    <!-- Using CDN inorder to add jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script> 
+ 
+        $(document).ready(function () {
+            $("p").append("YES");
+        });
+ 
+    </script> 
+    </head> 
+    <body> 
+ 
+    <p>Is jQuery FUN or what? </p> 
+ 
+    </body> 
+    </html>
