@@ -1,0 +1,7 @@
+1.  var paragraph = $("p").first().text();
+    $("p").last().html(paragraph);
+2.  $("ul").find(".level-2").find("li").css("background-color", "red");
+3.  $("ul").find(".third-item").prev().css("background-color", "blue");;
+4.  On the Go vegiterian button click event we have to add the following line of code
+    $(".turkey").replaceWith("<li>Mashed potatos</li>");
+
